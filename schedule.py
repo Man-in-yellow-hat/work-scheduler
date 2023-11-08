@@ -87,6 +87,7 @@ def main():
 
     try:
         service = build('calendar', 'v3', credentials=creds)
+        calendar_id = "c_3s34it49k6mbjjovfo8pg0e2tg@group.calendar.google.com" # Nathan Work calendar
 
         for shift in shifts:
             summary = 'RHC Shift'
